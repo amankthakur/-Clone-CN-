@@ -1,24 +1,43 @@
 html{
     font-size: 25px;
 }
+
 body
 {
     background-color:antiquewhite;
     color: rgb(19, 13, 5);
 }
+
+ol{
+    color: blueviolet;
+}
+
 h4{
     color: blueviolet;
-    font-size: 30px;
+    font-size: 25px;
+    text-transform: uppercase;
 }
+
 p{
     color: rgb(0, 226, 143);
 }
+
 a{
     color: aliceblue ;
 }
+
 a:visited{
     color: red;
 }
+
 a:hover,a:active{
-    color: #eee;
+    color:black;
+}
+
+.listcolor{
+    color: black; 
+}
+
+.cursive{
+    font-family: cursive;
 }
