@@ -4,7 +4,7 @@ html{
 
 body
 {
-    background-color:antiquewhite;
+    background-color:rgb(0, 44, 73);
     color: rgb(19, 13, 5);
 }
 
@@ -23,15 +23,11 @@ p{
 }
 
 a{
-    color: aliceblue ;
-}
-
-a:visited{
-    color: red;
+    color:wheat
 }
 
 a:hover,a:active{
-    color:black;
+    color:rgb(255, 162, 0);
 }
 
 .listcolor{
@@ -40,4 +36,27 @@ a:hover,a:active{
 
 .cursive{
     font-family: cursive;
+}
+
+#groupie{
+    margin-left: 275px;
+}
+
+#navbar{
+    background-color: rgba(255, 166, 0, 0.509);
+    border-width: 0px 2px 2px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgba(0, 157, 255, 0.902);
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-left: 150px;
+}
+
+#logobar{
+    background-color: rgb(255, 145, 0);
+    border-width: 2px 2px 0px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgba(179, 202, 217, 0.902);
 }
