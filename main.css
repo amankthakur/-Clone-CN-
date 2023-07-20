@@ -1,16 +1,12 @@
 html{
     font-size: 25px;
 }
-
 body
 {
-    background-color:rgb(0, 44, 73);
+    background-color:wheat;
     color: rgb(19, 13, 5);
 }
 
-ol{
-    color: blueviolet;
-}
 
 h4{
     color: blueviolet;
@@ -59,4 +55,50 @@ a:hover,a:active{
     border-radius: 5px;
     border-style: solid;
     border-color: rgba(179, 202, 217, 0.902);
+}
+
+#suplimentry-sights{
+    color: black;
+}
+
+.widget{
+    border-top: 4px solid black ;
+    display: inline-block;
+}
+
+.widget input {
+    display: block;
+    background-color: #F7F7F7;
+    margin-bottom: 15px;
+    padding: 4px;
+    color: black;
+    font-size: 0.5rem;
+}
+
+/* this will choose all button with value button */
+button[type="submit"]{
+    font-size: 0.7rem;
+    background-color: black;
+    color: white;
+    padding: 5px ;
+}
+
+.widget-title{
+    color: black;
+    font-size: 0.7;
+}
+
+/* MAIN SECTION */
+main{
+    width: 70%;
+    display: inline-block;
+}
+
+/* ASIDE SECTION */
+aside{
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    margin-left: 10px;
+    margin-top: 50px;
 }
