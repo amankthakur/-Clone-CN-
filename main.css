@@ -7,7 +7,6 @@ body
     color: rgb(19, 13, 5);
 }
 
-
 h4{
     color: blueviolet;
     font-size: 25px;
@@ -23,7 +22,7 @@ a{
 }
 
 a:hover,a:active{
-    color:rgb(255, 162, 0);
+    color:black;
 }
 
 .listcolor{
@@ -101,4 +100,9 @@ aside{
     vertical-align: top;
     margin-left: 10px;
     margin-top: 50px;
+}
+
+.table{
+    position: relative;
+    left: 100px;
 }
